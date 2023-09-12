@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    position: relative;
+    /* background-image: linear-gradient(to right, red , blue); */
+}
+
+body {
+    /* background-color: blueviolet; */
+    /* background-image: url('../../module2-solution/rm.jpg');
+    background-size: cover; */
+    padding: 0;
+}
+
+.menu-wrapper {
+    /* border: 1px solid black; */
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    top: 30px;
+    justify-content: space-around;
+    float: right;
+}
+
+h4 {
+    margin-right: 5px;
+}
+
+.menu-class {
+    border: 1px solid black;
+    height: 25vh;
+    width: 33%;
+    justify-content: space-between;
+}
+
+.heading {
+    border: 1px solid yellowgreen;
+    width: 200px;
+    margin-top: 0;
+    height: 40px;
+    right: 0;
+}
+
+ h4.heading {
+    color: black;
+    background-color: bisque;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+}
+.beef.heading {
+    background-color: #ff0000;
+    position: absolute;
+    margin-right: 0;
+}
+
+.sushi.heading {
+    background-color: #ffcc66;
+    position: absolute;
+    margin-right: 0;
+}
+
+.chicken.heading {
+    background-color: #ff8080;
+    position: absolute;
+    margin-right: 0;
+    top: 0;
+}
+
+p {
+    top: 40px;
+    margin-left: 5px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 30px ;
+}
+
+/* media queries for responsive design - Desktop */
+
+@media (min-width: 992px) {
+    .menu-class {
+        width: 33.3%;
+    }
+}
+
+
+/* Tablet Version */
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu-class {
+        width: 50%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .menu-class {
+        width: 100%;
+    }
+}
