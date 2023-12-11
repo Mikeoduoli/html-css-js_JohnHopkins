@@ -1,9 +1,17 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    position: relative;
+    /* padding: 0; */
+    /* position: relative; */
 }
 
-h3 {
+h3, h4 {
     text-align: center;
+}
+
+.nav-bar {
+    background-color: #808080;
+}
+
+.menu-body {
+    background-color: #808080;
 }
